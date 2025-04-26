@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0;url=catalogue.pdf">
+  <title>Downloading Catalogue...</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 20%;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Your download is starting...</h1>
+  <p>If it doesn't, <a href="catalogue.pdf">click here to download manually</a>.</p>
+</body>
+</html>
