@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Our Catalogues</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #f8f8f8;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        .logo {
+            margin-top: 20px;
+            width: 150px;
+            animation: fadeIn 2s ease;
+        }
+
+        .cover-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin: 20px auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #333;
+            margin: 30px 0 20px;
+            animation: fadeIn 2s ease;
+        }
+
+        .downloads {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 50px;
+            animation: fadeIn 3s ease;
+        }
+
+        .download-btn {
+            background: #8b5c2b;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #a86b3a;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            0% {opacity: 0; transform: translateY(-20px);}
+            100% {opacity: 1; transform: translateY(0);}
+        }
+
+        @media (max-width: 600px) {
+            .logo {
+                width: 100px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .download-btn {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="F logo.jpg" alt="Logo" class="logo">
+
+    <img src="Teb (2).jpg" alt="Cover Image" class="cover-image">
+
+    <h1>Download Our Catalogues</h1>
+
+    <div class="downloads">
+        <a href="catalogues/catalogue1.pdf" class="download-btn">Download Catalogue 1</a>
+        <a href="catalogues/catalogue2.pdf" class="download-btn">Download Catalogue 2</a>
+        <a href="catalogues/catalogue3.pdf" class="download-btn">Download Catalogue 3</a>
+        <a href="catalogues/catalogue4.pdf" class="download-btn">Download Catalogue 4</a>
+        <a href="catalogues/catalogue5.pdf" class="download-btn">Download Catalogue 5</a>
+    </div>
+
+</body>
+</html>
